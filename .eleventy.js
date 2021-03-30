@@ -97,7 +97,8 @@ module.exports = function(eleventyConfig) {
       "md",
       "njk",
       "html",
-      "liquid"
+      "liquid",
+      "yml"
     ],
 
     // -----------------------------------------------------------------
@@ -128,7 +129,8 @@ module.exports = function(eleventyConfig) {
       input: ".",
       includes: "_includes",
       data: "_data",
-      output: "_site"
+      output: "_site",
+      
     }
   };
 };
